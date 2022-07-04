@@ -1,0 +1,48 @@
+
+
+.app-bar {
+    height: 10vh;
+    width: 100%;
+    color: green;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.logo {
+    height: 10vh /2;
+    color: white;
+    font-size: 2rem;
+}
+
+.app-bar-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    cursor: pointer;
+}
+
+
+
+.app-bar-single-item {
+    color: white;
+    font-size: 1rem;
+    padding: 10px;
+}
+
+.app-bar-single-item:hover{
+    color: orange;
+    /* background-color: red; */
+}
+
+.app-bar-contact-me-item {
+    height: 10vh/1.5;
+    /* width: 100px; */
+    border: white solid 1px;
+    border-radius: 10px;
+}
+
+

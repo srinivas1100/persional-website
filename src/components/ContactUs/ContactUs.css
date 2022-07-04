@@ -1,0 +1,84 @@
+.contact-us{
+    height: 50vh;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.lets-talk-container {
+    width: 50%;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+
+}
+.lets-talk-text{
+    margin: 0px;
+}
+
+.lets-talk-description{
+    margin: 0px;
+    font-size: 14px;
+    color: blueviolet;
+
+}
+.input-label {
+    margin: 0px;
+}
+
+.input-text-field{
+    height: 30px;
+    border: none;
+    border-radius: 50px;
+    background-color: cornsilk;
+    padding-left: 15px;
+    cursor: alias;
+}
+
+.input-text-message{
+    height: 70px;
+    border: none;
+    border-radius: 10px;
+    background-color: cornsilk;
+    padding-left: 15px;
+    cursor: alias;
+}
+
+.hire-me {
+    width: 30%;
+    background-color: darkmagenta;
+    padding: 10px 40px;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    /* box-shadow: 2px 2px  1px rgb(240, 170, 240); */
+    box-shadow: rgb(81, 135, 192) 0px 20px 30px -10px;
+}
+
+.hire-me:hover{
+    width: 30%;
+
+    background-color: chocolate;
+    color: darkmagenta;
+}
+
+.persional-info-container{
+    width: 50%;
+}
+
+.svg-image{
+    height: 50%;
+    width: 100%;
+    background-color: aquamarine;
+}
+
+.location{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+.location-text{
+    margin: 0px;
+}
