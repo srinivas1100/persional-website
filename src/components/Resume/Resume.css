@@ -1,4 +1,5 @@
 .resume {
+    margin: 20px;
     height: 70vh;
     width: 95%;
     display: flex;
@@ -19,7 +20,7 @@
     margin: 0px;
     /* background-color: yellow; */
 
-    justify-content: space-between;
+    justify-content: start;
 
     align-items: center;
 }

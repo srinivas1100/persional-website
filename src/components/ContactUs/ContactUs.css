@@ -1,84 +1,96 @@
-.contact-us{
-    height: 50vh;
-    width: 100%;
-    background-color: #fff;
-    display: flex;
-    justify-content: space-evenly;
+.contact-us {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.padding {
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 
 .lets-talk-container {
-    width: 50%;
+  width: 40%;
   display: flex;
   flex-direction: column;
   text-align: start;
-
 }
-.lets-talk-text{
-    margin: 0px;
+.lets-talk-text {
+  margin: 0px;
 }
 
-.lets-talk-description{
-    margin: 0px;
-    font-size: 14px;
-    color: blueviolet;
-
+.lets-talk-description {
+  margin: 0px;
+  font-size: 14px;
+  color: blueviolet;
 }
 .input-label {
-    margin: 0px;
+  margin: 0px;
 }
 
-.input-text-field{
-    height: 30px;
-    border: none;
-    border-radius: 50px;
-    background-color: cornsilk;
-    padding-left: 15px;
-    cursor: alias;
+.input-text-field {
+  height: 30px;
+  border: none;
+  border-radius: 50px;
+  background-color: cornsilk;
+  padding-left: 15px;
+  cursor: alias;
 }
 
-.input-text-message{
-    height: 70px;
-    border: none;
-    border-radius: 10px;
-    background-color: cornsilk;
-    padding-left: 15px;
-    cursor: alias;
+.input-text-message {
+  height: 70px;
+  border: none;
+  border-radius: 10px;
+  background-color: cornsilk;
+  padding-left: 15px;
+  cursor: alias;
 }
 
 .hire-me {
-    width: 30%;
-    background-color: darkmagenta;
-    padding: 10px 40px;
-    color: white;
-    border-radius: 20px;
-    cursor: pointer;
-    /* box-shadow: 2px 2px  1px rgb(240, 170, 240); */
-    box-shadow: rgb(81, 135, 192) 0px 20px 30px -10px;
+  width: 30%;
+  background-color: darkmagenta;
+  padding: 10px 40px;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  /* box-shadow: 2px 2px  1px rgb(240, 170, 240); */
+  box-shadow: rgb(81, 135, 192) 0px 20px 30px -10px;
 }
 
-.hire-me:hover{
-    width: 30%;
+.hire-me:hover {
+  width: 30%;
 
-    background-color: chocolate;
-    color: darkmagenta;
+  background-color: chocolate;
+  color: darkmagenta;
 }
 
-.persional-info-container{
-    width: 50%;
+.persional-info-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
-.svg-image{
-    height: 50%;
-    width: 100%;
-    background-color: aquamarine;
+.contact-us-image {
+  height: 70%;
+  width: 70%;
+  /* background-color: white; */
 }
 
-.location{
-    display: flex;
-    flex-direction: column;
-    margin: 0px;
+.svg-image {
+  height: 50%;
+  width: 100%;
+  background-color: aquamarine;
 }
 
-.location-text{
-    margin: 0px;
+.location {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+}
+
+.location-text {
+  margin: 0px;
 }

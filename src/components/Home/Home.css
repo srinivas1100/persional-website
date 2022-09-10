@@ -1,99 +1,168 @@
 .home {
-    margin: 0px;
-    height: 70vh;
-    width: 100%;
-    background-color: antiquewhite;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-
+  margin: 0px;
+  height: 90vh;
+  width: 100%;
+  background-color: antiquewhite;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .left-container {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: start;
+  height: 100%;
+  width: 50%;
+
+  display: flex;
+  flex-direction: column;
+  padding-left: 5%;
+  padding-right:5% ;
+  align-items: flex-start;
+  justify-content: center;
+}
+.padding{
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .animation-text {
-    display: inline-flex;
+  display: inline-flex;
 
-    margin: 0px;
-    overflow: hidden;
-    height: 50px;
-    align-items: flex-start;
-    justify-self: start;
+  margin: 0px;
+  overflow: hidden;
+  height: 50px;
+  align-items: flex-start;
+  justify-self: start;
 }
 
 .static-text {
-
-    margin: 0px;
-    font-size: 30px;
-    margin: 10px;
+  margin: 0px;
+  font-size: 30px;
+  margin: 5px;
 }
 
 .dynamic-text {
-
-    margin: 0px;
-    padding: 0px;
-    font-size: 30px;
-
-
+  margin: 0px;
+  padding: 0px;
+  font-size: 30px;
 }
 
 .dynamic-text li {
-    margin: 10px 0px;
-    /* margin: 10px; */
-    height: 40px;
-    list-style: none;
-    position: relative;
-    top: 0px;
-    animation: scrollening 8s steps(4) infinite;
+  margin: 10px 0px;
+  /* margin: 10px; */
+  height: 40px;
+  list-style: none;
+  position: relative;
+  top: 0px;
+  animation: scrollening 8s steps(4) infinite;
 }
 
 @keyframes scrollening {
-    100% {
-        top: -200px;
-
-    }
+  100% {
+    top: -200px;
+  }
 }
 
 .dynamic-text li span::after {
-    border-left: 2px solid black;
-    content: "";
-    background-color: antiquewhite;
-    position: absolute;
-    left: 0px;
-    height: 40px;
-    width: 100%;
-    animation: typing 2s steps(10) infinite;
+  border-left: 2px solid black;
+  content: "";
+  background-color: antiquewhite;
+  position: absolute;
+  left: 0px;
+  height: 40px;
+  width: 100%;
+  animation: typing 2s steps(10) infinite;
 }
 
 @keyframes typing {
-    100% {
-        left: 100%;
-        margin: 0 -35px 0 35px;
-    }
+  100% {
+    left: 100%;
+    margin: 0 -35px 0 35px;
+  }
 }
 
 .discription {
-    width: 50%;
-    text-align: left;
-
+  width: 80%;
+  text-align: left;
 }
 
 .hire-me {
-    background-color: darkmagenta;
-    padding: 10px 40px;
-    color: white;
-    border-radius: 20px;
-    cursor: pointer;
-    /* box-shadow: 2px 2px  1px rgb(240, 170, 240); */
-    box-shadow: rgb(81, 135, 192) 0px 20px 30px -10px;
+  background-color: darkmagenta;
+  padding: 10px 40px;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  /* box-shadow: 2px 2px  1px rgb(240, 170, 240); */
+  box-shadow: rgb(81, 135, 192) 0px 20px 30px -10px;
 }
 
-.hire-me:hover{
-    background-color: chocolate;
-    color: darkmagenta;
+.hire-me:hover {
+  background-color: chocolate;
+  color: darkmagenta;
+}
+
+.home-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 50%;
+  position: relative;
+}
+
+.persion-image {
+  height: 60%;
+  width: 60%;
+  /* position: absolute; */
+}
+
+.skil-image {
+  height: 15%;
+  width: 15%;
+  position: absolute;
+}
+
+.flutter {
+  top: 20%;
+  left: 7%;
+}
+
+.dart {
+  top: 40%;
+  left: 5%;
+}
+.react {
+  top: 7%;
+  left: 25%;
+}
+
+.javascript {
+  top: 6%;
+  right: 40%;
+}
+.nodejs {
+  right: 15%;
+  top: 15%;
+}
+.mongodb {
+  bottom: 20%;
+  left: 5%;
+}
+.mysql {
+  bottom: 10%;
+  left: 20%;
+}
+.kubernetes {
+  bottom: 10%;
+  right: 40%;
+  height: 10%;
+  width: 10%;
+}
+.docker {
+  bottom: 15%;
+  right: 15%;
+}
+
+.api {
+  right: 15%;
+  top: 35%;
 }

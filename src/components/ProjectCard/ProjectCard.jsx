@@ -1,15 +1,13 @@
 import React from 'react'
 import '../ProjectCard/ProjectCard.css'
 
-const ProjectCard = () => {
+const ProjectCard = (props) => {
 
   return (
-    <div className='project-card'>
-        <img  className='project-image' src="https://s3-ap-south-1.amazonaws.com/static.awfis.com/wp-content/uploads/2017/07/07184649/ProjectManagement.jpg" alt="" />
-        <div>
-            <h3>Project Name</h3>
-            <p>Project Description</p>
-        </div>
+    <div className='project-card-parent'>
+      <img className='project-image' src={props.imageUrl} alt="" />
+      <p className='project-title'>{props.projectName}</p>
+      <p className='project-description'>{props.projectDescription}</p>
     </div>
   )
 }

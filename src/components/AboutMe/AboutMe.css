@@ -1,0 +1,46 @@
+.about-me {
+  height: 80vh;
+  width: 100%;
+  background-color: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.left-image-container{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-image {
+  width: 80%;
+  height: 70%;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-details {
+  display: flex;
+  width: 50%;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.about-title {
+  font-size: 25px;
+}
+
+.about-description {
+  font-size: 16px;
+  width: 80%;
+  text-align: start;
+}
+
+.padding{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

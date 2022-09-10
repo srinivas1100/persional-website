@@ -9,6 +9,7 @@ const CustomButton = (props) => {
   //   boxShadow: props.boxShadow,
     
   // };
+  const className = `hire-me + ${props.className}`;
 
   return (
     <div
@@ -21,7 +22,7 @@ const CustomButton = (props) => {
         //     boxShadow: props.boxShadow,
         //   }
       }
-      className="hire-me"
+      className={className}
       onClick={props.onClick}
     >
       <span>{props.name}</span>

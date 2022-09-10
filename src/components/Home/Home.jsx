@@ -1,18 +1,19 @@
 import React from "react";
 import CustomButton from "../CustomButton";
 import "../Home/Home.css";
+import HomeImage from "./HomeImage";
 
 const Home = () => {
-const onTaped = () => {
-  console.log("this function was tapped")
-}
+  const onTaped = () => {
+    console.log("this function was tapped")
+  }
 
   return (
     <div className="home">
       <div className="left-container">
-        <h1>Hello</h1>
+        <h1 className="padding">Hello</h1>
         <div className="animation-text">
-          <div className="static-text">I Am</div>
+          <div className="static-text">I am</div>
           <ul className="dynamic-text">
             <li>
               <span>Flutter Developer</span>
@@ -28,13 +29,13 @@ const onTaped = () => {
             </li>
           </ul>
         </div>
-        <p className="discription">
+        <p className="discription padding">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum aut
           dicta dolor numquam quia, nostrum dolorem doloremque itaque.
         </p>
-        <CustomButton  name="Hire Me" onClick={onTaped}></CustomButton>
+        <CustomButton className="padding" name="Hire Me" onClick={onTaped}></CustomButton>
       </div>
-      <div>image</div>
+      <HomeImage></HomeImage>
     </div>
   );
 };
