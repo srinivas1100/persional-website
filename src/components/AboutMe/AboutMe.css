@@ -1,24 +1,26 @@
 .about-me {
-  height: 80vh;
+  height: 400px;
   width: 100%;
-  background-color: yellow;
+  background-color: var(--secondary-sky-blue-color);
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
 }
 
-.left-image-container{
-    width: 50%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.left-image-container {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  background-color: var(--transperent-color);
+  align-items: center;
+  justify-content: center;
 }
 
 .about-image {
   width: 80%;
   height: 70%;
+  background-color: var(--transperent-color);
   align-items: center;
   justify-content: center;
 }
@@ -26,21 +28,57 @@
 .about-details {
   display: flex;
   width: 50%;
+  background-color: var(--transperent-color);
   align-items: flex-start;
   flex-direction: column;
 }
 
 .about-title {
   font-size: 25px;
+  background-color: var(--transperent-color);
 }
 
 .about-description {
   font-size: 16px;
+  background-color: var(--transperent-color);
   width: 80%;
   text-align: start;
 }
 
-.padding{
-    padding-top: 10px;
-    padding-bottom: 10px;
+.padding {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.download-resume {
+  background-color: var(--transperent-color);
+  color: var(--background-color);
+  text-decoration: none;
+}
+
+@media screen and (max-width: 750px) {
+  .about-me {
+    padding: 50px;
+    width: 100%;
+    background-color: var(--secondary-sky-blue-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+  .about-details {
+    display: flex;
+    width: 80%;
+    background-color: var(--transperent-color);
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .left-image-container {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    background-color: var(--transperent-color);
+    align-items: center;
+    justify-content: center;
+  }
 }

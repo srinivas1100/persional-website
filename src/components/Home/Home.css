@@ -1,11 +1,14 @@
 .home {
-  margin: 0px;
-  height: 90vh;
+  margin-top: 60px;
+  height: 30em;
   width: 100%;
-  background-color: antiquewhite;
+  background-color: var(--background-color);
   display: flex;
   align-items: center;
   justify-content: space-around;
+}
+.background {
+  background-color: var(--transperent-color);
 }
 
 .left-container {
@@ -15,13 +18,13 @@
   display: flex;
   flex-direction: column;
   padding-left: 5%;
-  padding-right:5% ;
+  padding-right: 5%;
   align-items: flex-start;
   justify-content: center;
 }
-.padding{
-    padding-top: 10px;
-    padding-bottom: 10px;
+.padding {
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .animation-text {
@@ -65,7 +68,7 @@
 .dynamic-text li span::after {
   border-left: 2px solid black;
   content: "";
-  background-color: antiquewhite;
+  background-color: var(--background-color);
   position: absolute;
   left: 0px;
   height: 40px;
@@ -88,11 +91,13 @@
 .hire-me {
   background-color: darkmagenta;
   padding: 10px 40px;
-  color: white;
+  color: var(--background-color);
   border-radius: 20px;
   cursor: pointer;
-  /* box-shadow: 2px 2px  1px rgb(240, 170, 240); */
   box-shadow: rgb(81, 135, 192) 0px 20px 30px -10px;
+}
+.text-style {
+  background-color: var(--transperent-color);
 }
 
 .hire-me:hover {
@@ -165,4 +170,35 @@
 .api {
   right: 15%;
   top: 35%;
+}
+
+@media screen and (max-width: 750px) {
+  .home {
+    margin-top: 60px;
+    width: 100%;
+    background-color: var(--background-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .left-container {
+    /* height: 100%; */
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+    padding-right: 5%;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .home-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--transperent-color);
+  /* height: 100%; */
+  width: 80%;
+  position: relative;
+}
 }

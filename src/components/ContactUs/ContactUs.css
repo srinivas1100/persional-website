@@ -1,5 +1,5 @@
 .contact-us {
-  height: 90vh;
+  height: 550px;
   width: 100%;
   display: flex;
   align-items: center;
@@ -49,18 +49,19 @@
 }
 
 .hire-me {
-  width: 30%;
   background-color: darkmagenta;
-  padding: 10px 40px;
-  color: white;
+  color: var(--background-color);
   border-radius: 20px;
+  align-items: center;
   cursor: pointer;
-  /* box-shadow: 2px 2px  1px rgb(240, 170, 240); */
   box-shadow: rgb(81, 135, 192) 0px 20px 30px -10px;
+}
+.background {
+  background-color: var(--transperent-color);
 }
 
 .hire-me:hover {
-  width: 30%;
+  /* width: 40%; */
 
   background-color: chocolate;
   color: darkmagenta;
@@ -93,4 +94,32 @@
 
 .location-text {
   margin: 0px;
+}
+
+@media screen and (max-width: 750px) {
+  .contact-us {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 100px;
+  }
+  .lets-talk-container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+  }
+  .persional-info-container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--transperent-color);
+  }
+  .contact-us-image {
+  height: 80%;
+  width: 80%;
+  background-color: var(--transperent-color);
+}
 }

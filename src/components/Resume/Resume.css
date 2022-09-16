@@ -5,9 +5,12 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-
     border-radius: 10px;
-    background-color: aqua;
+    background-color: var(--primary-sky-ble-color);
+}
+
+.transp{
+     background-color: var(--transperent-color);
 }
 
 .education-column {
@@ -19,9 +22,7 @@
     display: flex;
     margin: 0px;
     /* background-color: yellow; */
-
     justify-content: start;
-
     align-items: center;
 }
 
@@ -31,7 +32,6 @@
     justify-content: center;
     align-items: center;
     padding: 10px;
-
 }
 
 .ed-circle {
@@ -75,3 +75,14 @@
     margin: 5px;
 }
 
+.education-card{
+    height: 100px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+     box-shadow: 10px 10px 8px 10px #888888;
+}

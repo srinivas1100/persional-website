@@ -25,6 +25,16 @@
     align-items: center;
     cursor: pointer;
 }
+.selet-tab-style{
+    background-color: bisque;
+    height: 45px;
+    margin: auto;
+    padding: auto;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    
+}
 .projects-container{
     /* height: 300px; */
     width: 100%;

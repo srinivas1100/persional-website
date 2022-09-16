@@ -1,6 +1,6 @@
 .copy-right {
-    background-color: darkslategray;
-    color: white;
+    background-color: var(--secondary-black-color);
+    color: var(--background-color);
     display: flex;
     align-items: center;
     justify-content: center;

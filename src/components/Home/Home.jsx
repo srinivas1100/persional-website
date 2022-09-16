@@ -2,6 +2,7 @@ import React from "react";
 import CustomButton from "../CustomButton";
 import "../Home/Home.css";
 import HomeImage from "./HomeImage";
+import { Link } from "react-scroll";
 
 const Home = () => {
   const onTaped = () => {
@@ -33,7 +34,7 @@ const Home = () => {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum aut
           dicta dolor numquam quia, nostrum dolorem doloremque itaque.
         </p>
-        <CustomButton className="padding" name="Hire Me" onClick={onTaped}></CustomButton>
+        <CustomButton className="padding" name="Hire Me" onClick={onTaped}><Link className="background" to="contact-us" spy={true} smooth={true} offset={-70} duration={500} >Hire Me</Link></CustomButton>
       </div>
       <HomeImage></HomeImage>
     </div>
