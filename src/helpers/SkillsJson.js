@@ -1,36 +1,29 @@
  const Skills = [
     {
         "key": 1,
-        "skill": "Flutter developer"
+        "skill": "Flutter developer",
+        "value": "10"
     },
     {
         "key": 2,
-        "skill": "React developer"
+        "skill": "React developer",
+        "value": "9"
     },
     {
         "key": 3,
-        "skill": "Mern stack developer"
+        "skill": "Mern stack developer",
+        "value": "9"
     },
     {
         "key": 4,
-        "skill": "API's developer"
+        "skill": "API's developer",
+        "value": "8"
     },
     {
         "key": 6,
-        "skill": "Full stack developer"
-    },
-    {
-        "key": 7,
-        "skill": "Full stack developer"
-    },
-    {
-        "key": 8,
-        "skill": "Full stack developer"
-    },
-    {
-        "key": 9,
-        "skill": "Full stack developer"
-    },
+        "skill": "Full stack developer",
+        "value": "6"
+    }
 ]
 
 

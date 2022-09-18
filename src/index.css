@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: var(--background-color);
+}
 :root {
   --primary-black-color: #222831;
   --secondary-black-color: #393e46;
@@ -5,13 +10,7 @@
   --secondary-sky-blue-color: #a6e3e9;
   --thick-background-color: #cbf1f5;
   --background-color: #e3fdfd;
-  --transperent-color : transparent;
-}
-
-* {
-  margin: 0px;
-  padding: 0px;
-  background-color: var(--background-color);
+  --transperent-color: transparent;
 }
 
 body {

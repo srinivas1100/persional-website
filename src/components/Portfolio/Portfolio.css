@@ -1,80 +1,57 @@
-.portfolio{
-    /* height: 90vh; */
-    width: 100%;
-    background-color: bisque;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
+.portfolio {
+  width: 100%;
+  background-color: bisque;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: var(--secondary-sky-blue-color);
+  padding: 10px;
+}
+.title {
+  font-size: 2rem;
 }
 
-.tab-bar{
-    height: 45px;
-    width: 70%;
-    background-color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.tab-bar {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 45px;
+  width: 70%;
+  background-color: var(--background-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 50px;
+  border: solid 1px var(--primary-black-color);
 }
-.tab-bar-item{
-    color: cadetblue;
-    height: 45px;
-    margin: auto;
-    padding: auto;
-    display: flex;
-    align-items: center;
-    cursor: pointer;
+.tab-bar-item {
+  color: var(--primary-sky-ble-color);
+  margin: auto;
+  padding: auto;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border-color: var(--primary-black-color);
+  border-radius: 50px;
 }
-.selet-tab-style{
-    background-color: bisque;
-    height: 45px;
-    margin: auto;
-    padding: auto;
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-    
+.selet-tab-style {
+  background-color: var(--primary-black-color);
+  color: var(--background-color);
+  height: 45px;
+  padding-left: 5px;
+  padding-right: 5px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 50px;
+  border: solid 1px var(--primary-black-color);
 }
-.projects-container{
-    /* height: 300px; */
-    width: 100%;
-    background-color: aliceblue;
-    color: aliceblue;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    padding: 20px;
-}
-.project-card{
-    height: 250px;
-    width: 200px;
-    background-color: red;
-   
-    margin: 10px;
-    cursor: pointer;
-    transition: all 1s ease-in-out;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.project-card:hover{
-    height: 270px;
-    width: 220px;
-    background-color: blueviolet;
-}
-.project-card-image{
-    height: 70%;
-    width: 100%;
-    background-color: rgb(144, 105, 105);
-}
-.project-name{
-    color: #fff;
-    font-size: 14px;
-    margin: 0px;
-}
-.project-discription{
-    color: #fff;
-    font-size: 14px;
-    margin: 0px;
+.projects-container {
+  width: 95%;
+  background-color: var(--transperent-color);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 10px;
+  gap: 20px;
 }

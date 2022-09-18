@@ -1,4 +1,6 @@
-
+*, *::before, *::after {
+  box-sizing: inherit;
+}
 
 .app {
   text-align: center;
@@ -6,6 +8,8 @@
   flex-direction: column;
   align-items: center;
   position: relative;
+  max-width: 100%;
+    box-sizing: border-box;
   background-color: var(--primary-sky-blue-color);
 }
 

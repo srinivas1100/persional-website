@@ -6,70 +6,52 @@ import Education from '../../helpers/EducationJson.js'
 
 const Resume = () => {
   return (
-
-    <div>
-      <div className="education-card">
-        <p>B.Tech</p>
-        <p>Vishnu Instute of technology</p>
-        <div>
-
-        <span>Bhimvaram</span>
-        <span>2022</span>
-        </div>
+    <div className="resume">
+      <div className="title">Experence</div>
+      <div className="wrap-elements">
+        {Experince.map((a) => <EduExpCard key={a.key} title={a.path} collage={a["companey-name"]} location={a.location} date={a.experence}></EduExpCard>)}
       </div>
-    </div>
-    // <div className="resume">
-    //   <div className="transp">Skils & Experince</div>
-    //   <div className="education-column transp">
-    //     <div className="transp">
-    //       <div className="transp" >Education</div>
-    //       <div className="transp">
-    //         {Education.map((educ => <EducationItem key={educ["key"]} collageName={educ["collage-name"]} location={educ.location} passedOut={educ["passed-out"]}  ></EducationItem>))}
-    //       </div>
-    //     </div>
-    //     <div className="transp">
-    //       <div className="transp">Experince</div>
-    //       <div className="transp">
-    //         {
-    //           Experince.map((a) => <EducationItem key={a["key"]} collageName={a['companey-name']} location={a['path']} passedOut={a['experence']} ></EducationItem>)
-    //         }
+      <p className="title">Education</p>
+      <div className="wrap-elements">
+        {Education.map((a) => <EduExpCard key={a.key} title={a.title} collage={a["collage-name"]} location={a.location} date={a["passed-out"]}></EduExpCard>)}
 
-    //       </div>
-    //     </div>
-    //     <div className="transp">
-    //       <div className="transp">Skils</div>
-    //       {Skills.map((a) => <SkillItem key={a["key"]} title={a.skill}></SkillItem>)}
 
-    //     </div>
-    //   </div>
-    // </div>
+      </div>
 
-  );
-};
-
-const SkillItem = (props) => {
-  return (
-    <div className="skils-item transp">
-      <div className="ed-circle transp"></div>
-      <p className="skils-item-text transp">{props.title}</p>
+      <div className="title">Skils</div>
+      <div className="wrap-elements">
+        {Skills.map((a) =>
+          <SkillsCard key={a.key} title={a.skill} value={a.value}></SkillsCard>
+        )}
+      </div>
     </div>
   );
 };
 
-const EducationItem = (props) => {
+
+
+const EduExpCard = ({ title, collage, location, date }) => {
   return (
-    <div className="education-content transp">
-      <div className="education-line transp">
-        <div className="ed-circle transp"></div>
-        <div className="ed-line transp"></div>
+    <div className="education-card">
+      <div className="top-tile">
+        <p className="headding">{title}</p>
+        <p className="sub-hedding">{collage}</p>
       </div>
-      <div className="ed-info transp">
-        <p className="ed-item transp">{props.collageName}</p>
-        <p className="ed-item transp">{props.location}</p>
-        <p className="ed-item transp">{props.passedOut}</p>
+      <div className="location">
+        <span className="loc-year">{location}</span>
+        <span className="loc-year">{date}</span>
       </div>
     </div>
-  );
+  )
+};
+
+const SkillsCard = ({ title, value }) => {
+  return (
+    <div className="skill-card">
+      <p className="headding">{title}</p>
+      <input className="range-select" type="range" min="0" max="10" step="1" defaultValue={value} ></input>
+    </div>
+  )
 };
 
 export default Resume;

@@ -60,9 +60,7 @@ const ContactUs = () => {
   return (
     <div className="contact-us">
       <div className="lets-talk-container">
-        <form onSubmit={sendEmail}>
-
-
+        <form className="form" onSubmit={sendEmail}>
           <h1 className="lets-talk-text">Let's Talk</h1>
           <p className="lets-talk-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti in adipisci expedita facilis nulla </p>
           <p className="input-label padding">Your Name</p>

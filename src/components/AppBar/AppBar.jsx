@@ -14,7 +14,7 @@ const AppBar = () => {
   }
 
   return (
-    <nav className={isMobile ? "app-bar-mobile" : "app-bar"}>
+    <div className={isMobile ? "app-bar-mobile" : "app-bar"}>
       <div className={ isMobile ? "logo-items-mobile" : "logo-items"}>
         <div className="logo">Srinu</div>
         <div className={isMobile ? "app-bar-items-mobile" : "app-bar-items"}>
@@ -37,7 +37,7 @@ const AppBar = () => {
 
 
 
-    </nav>
+    </div>
   );
 };
 

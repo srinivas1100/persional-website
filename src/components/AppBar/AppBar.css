@@ -7,7 +7,7 @@
   justify-content: space-around;
   position: fixed;
   top: 0px;
-}
+} 
 .app-bar-mobile {
   height: 60px;
   width: 100%;
@@ -106,7 +106,7 @@
     top: 0px;
   }
   .app-bar-mobile {
-    height: 250px;
+    height: auto;
     width: 100%;
     background-color: var(--primary-black-color);
     display: flex;
@@ -133,7 +133,7 @@
     display: flex;
     flex-direction: column;
     background-color: var(--transperent-color);
-    width: 50%;
+    width: auto;
   }
   .logo-items-mobile {
     display: flex;

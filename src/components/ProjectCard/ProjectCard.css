@@ -1,12 +1,10 @@
 .project-card-parent {
-  background-color: blanchedalmond;
   border-radius: 10px;
   height: 350px;
   width: 250px;
   display: flex;
   flex-direction: column;
   cursor: pointer;
-  /* color: red; */
 }
 .project-image {
   height: 50%;
@@ -18,7 +16,6 @@
 .project-title {
   font-size: 150%;
   font-weight: bold;
-  /* color: yellow; */
 }
 
 .project-description {
@@ -29,13 +26,3 @@
   height: 400px;
   width: 300px;
 }
-
-/* .project-title:hover {
-  font-size: 30px;
-  font-weight: bold;
-  /* color: yellow; */
-/* } */
-
-/* .project-description:hover {
-  font-size: 16px; */
-/* } */
