@@ -10,9 +10,10 @@ const Projects = [
         "key": 1,
         "type": ProjectType.Flutter,
         "title": "Calculator",
-        "image": "",
-        "short-des": "some short description of the project",
-        "long-des": "The main purpose of the Flexbox Layout is to distribute space between items of a container. It works even in those cases when the item size is unknown or dynamic.You can easily set distance between flexbox items using the CSS justify- content property.In this snippet, well show how to do this.",
+        "image": "https://firebasestorage.googleapis.com/v0/b/personal-website-b5400.appspot.com/o/Cover.jpg?alt=media&token=e2ea4d74-0d68-47f2-b935-000bcd0cd30c",
+        "short-des": "The project was developed by using Flutter and Dart. This project is fully responsive and adaptable to android and ios devices and multiscreen displays.",
+        "long-des": "The calculator provides simple and advanced mathematical functions in a beautifully designed app. Perform basic calculations such as addition, subtraction, multiplication, and division.Do scientific operations such as trigonometric, logarithmic, and exponential functions",
+        "source-code": "https://github.com/srinivas1100/persional-website"
     },
     {
         "key": 2,
@@ -21,6 +22,7 @@ const Projects = [
         "image": "",
         "short-des": "some short description of the project",
         "long-des": "The main purpose of the Flexbox Layout is to distribute space between items of a container. It works even in those cases when the item size is unknown or dynamic.You can easily set distance between flexbox items using the CSS justify- content property.In this snippet, well show how to do this.",
+        "source-code": "https://github.com/srinivas1100/persional-website"
     },
     {
         "key": 3,
@@ -29,6 +31,7 @@ const Projects = [
         "image": "",
         "short-des": "some short description of the project",
         "long-des": "The main purpose of the Flexbox Layout is to distribute space between items of a container. It works even in those cases when the item size is unknown or dynamic.You can easily set distance between flexbox items using the CSS justify- content property.In this snippet, well show how to do this.",
+        "source-code": "https://github.com/srinivas1100/persional-website"
     },
     {
         "key": 4,
@@ -37,6 +40,7 @@ const Projects = [
         "image": "",
         "short-des": "some short description of the project",
         "long-des": "The main purpose of the Flexbox Layout is to distribute space between items of a container. It works even in those cases when the item size is unknown or dynamic.You can easily set distance between flexbox items using the CSS justify- content property.In this snippet, well show how to do this.",
+        "source-code": "https://github.com/srinivas1100/persional-website"
     },
     {
         "key": 5,
@@ -45,6 +49,7 @@ const Projects = [
         "image": "",
         "short-des": "some short description of the project",
         "long-des": "The main purpose of the Flexbox Layout is to distribute space between items of a container. It works even in those cases when the item size is unknown or dynamic.You can easily set distance between flexbox items using the CSS justify- content property.In this snippet, well show how to do this.",
+        "source-code": "https://github.com/srinivas1100/persional-website"
     },
     {
         "key": 6,
@@ -53,6 +58,7 @@ const Projects = [
         "image": "",
         "short-des": "some short description of the project",
         "long-des": "The main purpose of the Flexbox Layout is to distribute space between items of a container. It works even in those cases when the item size is unknown or dynamic.You can easily set distance between flexbox items using the CSS justify- content property.In this snippet, well show how to do this.",
+        "source-code": "https://github.com/srinivas1100/persional-website"
     },
     {
         "key": 7,
@@ -61,6 +67,7 @@ const Projects = [
         "image": "",
         "short-des": "some short description of the project",
         "long-des": "The main purpose of the Flexbox Layout is to distribute space between items of a container. It works even in those cases when the item size is unknown or dynamic.You can easily set distance between flexbox items using the CSS justify- content property.In this snippet, well show how to do this.",
+        "source-code": "https://github.com/srinivas1100/persional-website"
     },
     {
         "key": 8,
@@ -69,6 +76,7 @@ const Projects = [
         "image": "",
         "short-des": "some short description of the project",
         "long-des": "The main purpose of the Flexbox Layout is to distribute space between items of a container. It works even in those cases when the item size is unknown or dynamic.You can easily set distance between flexbox items using the CSS justify- content property.In this snippet, well show how to do this.",
+        "source-code": "https://github.com/srinivas1100/persional-website"
     },
     {
         "key": 9,
@@ -77,6 +85,7 @@ const Projects = [
         "image": "",
         "short-des": "some short description of the project",
         "long-des": "The main purpose of the Flexbox Layout is to distribute space between items of a container. It works even in those cases when the item size is unknown or dynamic.You can easily set distance between flexbox items using the CSS justify- content property.In this snippet, well show how to do this.",
+        "source-code": "https://github.com/srinivas1100/persional-website"
     },
     {
         "key": 10,
@@ -85,6 +94,7 @@ const Projects = [
         "image": "",
         "short-des": "some short description of the project",
         "long-des": "The main purpose of the Flexbox Layout is to distribute space between items of a container. It works even in those cases when the item size is unknown or dynamic.You can easily set distance between flexbox items using the CSS justify- content property.In this snippet, well show how to do this.",
+        "source-code": "https://github.com/srinivas1100/persional-website"
     },
     {
         "key": 11,
@@ -93,6 +103,7 @@ const Projects = [
         "image": "",
         "short-des": "some short description of the project",
         "long-des": "The main purpose of the Flexbox Layout is to distribute space between items of a container. It works even in those cases when the item size is unknown or dynamic.You can easily set distance between flexbox items using the CSS justify- content property.In this snippet, well show how to do this.",
+        "source-code": "https://github.com/srinivas1100/persional-website"
     },
 ]
 
@@ -141,4 +152,4 @@ const Projects = [
 //     }
 // ]
 
-export { Projects, ProjectType};
+export { Projects, ProjectType };

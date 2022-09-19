@@ -5,7 +5,7 @@ import { Projects, ProjectType } from "../../helpers/projectJson";
 
 const Portfolio = () => {
 
-  const [changeTabs, setChangeTabs] = useState(ProjectType.Flutter);
+  const [changeTabs, setChangeTabs] = useState("");
   const [listProjects, setProjects] = useState(Projects);
 
   const onPress = (index) => {
@@ -38,7 +38,8 @@ const Portfolio = () => {
             key={a.key}
             imageUrl={a.image === "" ? "https://s3-ap-south-1.amazonaws.com/static.awfis.com/wp-content/uploads/2017/07/07184649/ProjectManagement.jpg" : a.image}
             projectName={a.title}
-            projectDescription={a["short-des"]} ></ProjectCard>)}
+            projectDescription={a["short-des"]} 
+            longdis={a["long-des"]} sourcecode={a["source-code"]} ></ProjectCard>)}
       </div>
     </div>
   );
